@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aadhya Panchal | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header id="main-header">
+    <nav class="navbar">
+      <a href="#home" class="logo" aria-label="Aadhya Panchal Home">
+        <div class="logo-icon">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect width="36" height="36" rx="10" fill="url(#logoGrad)"/>
+            <text x="18" y="24" text-anchor="middle" font-family="Poppins, sans-serif" font-size="14" font-weight="700" fill="#F2E9E4" letter-spacing="0.5">AP</text>
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#4A4E69"/>
+                <stop offset="100%" stop-color="#9A8C98"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Aadhya<span class="logo-dot"> Panchal</span></span>
+        </div>
+      </a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-item active">Home</a></li>
+        <li><a href="#about" class="nav-item">About</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+        <li><a href="#education" class="nav-item">Education</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#contact" class="nav-item">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle dark mode">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HOME ===== -->
+    <section id="home" class="hero-section">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Aadhya <span class="accent">Panchal</span></h1>
+        <h2 class="hero-role typing-wrapper">
+          <span id="typed-text"></span><span class="cursor">|</span>
+        </h2>
+        <p class="hero-bio">
+          Information Technology student passionate about building clean,
+          functional software and turning ideas into real products.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="hero-socials">
+          <a href="mailto:aadhyapanchal72@gmail.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="avatar-ring">
+          <div class="avatar-initials">AP</div>
+        </div>
+        <div class="floating-badge badge-1"><i class="fas fa-code"></i> Developer</div>
+        <div class="floating-badge badge-2"><i class="fas fa-graduation-cap"></i> GTU</div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about-section">
+      <div class="section-header">
+        <h2 class="section-title">About <span class="accent">Me</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a Information Technology student who completed my Diploma from
+            <strong>Institute of Engineering</strong>, affiliated with
+            <strong>GTU (Gujarat Technological University)</strong>.
+            I love building practical applications that solve everyday problems.
+          </p>
+          <p>
+            Currently pursuing <strong>B.Tech in Information Technology</strong> at
+            <strong>JG University</strong>, building real-world projects and
+            deepening my skills in software development every day.
+          </p>
+          <div class="about-cards">
+            <div class="info-card">
+              <i class="fas fa-school"></i>
+              <div>
+                <span class="card-label">10th School</span>
+                <span class="card-value">Divinebuds English School</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-university"></i>
+              <div>
+                <span class="card-label">Diploma</span>
+                <span class="card-value">Information Technology — GTU</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span class="card-label">B.Tech (Pursuing)</span>
+                <span class="card-value">Information Technology — JG University</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-star"></i>
+              <div>
+                <span class="card-label">CGPA</span>
+                <span class="card-value">6.65</span>
+              </div>
+            </div>
+            <div class="info-card">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <span class="card-label">Email</span>
+                <span class="card-value">aadhyapanchal72@gmail.com</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-box">
+            <span class="stat-number">1+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Years of Study</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">6.65</span>
+            <span class="stat-label">CGPA</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-number">GTU</span>
+            <span class="stat-label">Affiliated University</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION ===== -->
+    <section id="education" class="section education-section">
+      <div class="section-header">
+        <h2 class="section-title">My <span class="accent">Education</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="timeline">
+
+        <!-- B.Tech — current -->
+        <div class="timeline-item">
+          <div class="timeline-dot current"></div>
+          <div class="timeline-card">
+            <div class="timeline-badge current-badge">Currently Pursuing</div>
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">B.Tech — Information Technology</h3>
+                <p class="timeline-org"><i class="fas fa-university"></i> JG University</p>
+              </div>
+              <span class="timeline-year">2026 — Present</span>
+            </div>
+            <p class="timeline-desc">
+              Pursuing Bachelor of Technology in Information Technology, focusing on
+              advanced software development, data structures, algorithms, and
+              building real-world projects to strengthen practical skills.
+            </p>
+            <div class="timeline-tags">
+              <span>Software Development</span>
+              <span>Data Structures</span>
+              <span>Building Projects</span>
+              <span>Web Development</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Diploma -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Diploma — Information Technology</h3>
+                <p class="timeline-org"><i class="fas fa-university"></i> Institute of Engineering &nbsp;·&nbsp; GTU Affiliated</p>
+              </div>
+              <span class="timeline-year">2023 — 2026</span>
+            </div>
+            <p class="timeline-desc">
+              Completed Diploma in Information Technology from GTU affiliated Institute
+              of Engineering. Built a strong foundation in programming, networking,
+              and software design. Developed the Expense Tracker project.
+            </p>
+            <div class="timeline-tags">
+              <span>CGPA: 6.65</span>
+              <span>GTU</span>
+              <span>Python</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10th -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-title">Secondary School — 10th</h3>
+                <p class="timeline-org"><i class="fas fa-school"></i> Divinebuds English School</p>
+              </div>
+              <span class="timeline-year">Till 2022</span>
+            </div>
+            <p class="timeline-desc">
+              Completed secondary schooling with a strong academic foundation,
+              sparking an early interest in technology and computers.
+            </p>
+            <div class="timeline-tags">
+              <span>English Medium</span>
+              <span>Science & Math</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section id="skills" class="section skills-section">
+      <div class="section-header">
+        <h2 class="section-title">My <span class="accent">Skills</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3><i class="fas fa-code"></i> Programming</h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-info"><span>Python</span><span>75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>C / C++</span><span>70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>JavaScript</span><span>65%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-globe"></i> Web Development</h3>
+          <div class="skill-bars">
+            <div class="skill-item">
+              <div class="skill-info"><span>HTML</span><span>85%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>CSS</span><span>80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Responsive Design</span><span>75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3><i class="fas fa-tools"></i> Tools & Others</h3>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">MySQL</span>
+            <span class="tag">Linux</span>
+            <span class="tag">MS Office</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section projects-section">
+      <div class="section-header">
+        <h2 class="section-title">My <span class="accent">Projects</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-wallet"></i></div>
+          <div class="project-content">
+            <div class="project-tag">Diploma Project</div>
+            <h3 class="project-title">Expense Tracker</h3>
+            <p class="project-desc">
+              A financial management application where users can track their
+              income and daily expenses with ease.
+            </p>
+            <ul class="project-features">
+              <li><i class="fas fa-check-circle"></i> Monthly budget planning</li>
+              <li><i class="fas fa-check-circle"></i> Track remaining balance</li>
+              <li><i class="fas fa-check-circle"></i> Income vs expense overview</li>
+              <li><i class="fas fa-check-circle"></i> Daily expense logging</li>
+            </ul>
+            <div class="project-tech">
+              <span>Python</span><span>MySQL</span><span>Tkinter</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="btn btn-sm btn-outline-sm"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 — extra small project to meet requirement -->
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="project-content">
+            <div class="project-tag">Web Project</div>
+            <h3 class="project-title">Personal Portfolio</h3>
+            <p class="project-desc">
+              A fully responsive personal portfolio website built using HTML,
+              CSS, and JavaScript — this very site you are viewing right now.
+            </p>
+            <ul class="project-features">
+              <li><i class="fas fa-check-circle"></i> Dark / light mode toggle</li>
+              <li><i class="fas fa-check-circle"></i> Responsive mobile layout</li>
+              <li><i class="fas fa-check-circle"></i> Smooth scroll navigation</li>
+              <li><i class="fas fa-check-circle"></i> Animated skill bars</li>
+            </ul>
+            <div class="project-tech">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-sm"><i class="fab fa-github"></i> Code</a>
+              <a href="#" class="btn btn-sm btn-outline-sm"><i class="fas fa-external-link-alt"></i> Live</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact-section">
+      <div class="section-header">
+        <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
+        <div class="underline"></div>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h3>Let's Connect</h3>
+          <p>Have a project idea, collaboration, or just want to say hi? Feel free to reach out.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:aadhyapanchal72@gmail.com">aadhyapanchal72@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Gujarat, India</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Institute of Engineering, GTU</span>
+            </div>
+          </div>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+            <span class="error-msg" id="name-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required />
+            <span class="error-msg" id="email-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?" required />
+            <span class="error-msg" id="subject-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            <span class="error-msg" id="message-error"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <p class="form-success" id="form-success">
+            <i class="fas fa-check-circle"></i> Message sent successfully!
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo-wrap">
+        <svg width="40" height="40" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="36" height="36" rx="10" fill="url(#footerLogoGrad)"/>
+          <text x="18" y="24" text-anchor="middle" font-family="Poppins, sans-serif" font-size="14" font-weight="700" fill="#F2E9E4" letter-spacing="0.5">AP</text>
+          <defs>
+            <linearGradient id="footerLogoGrad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#4A4E69"/>
+              <stop offset="100%" stop-color="#9A8C98"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span class="footer-logo-name">Aadhya <span style="color:var(--mauve)">Panchal</span></span>
+      </div>
+      <p class="footer-text">Designed & Built by <strong>Aadhya Panchal</strong></p>
+      <div class="footer-socials">
+        <a href="mailto:aadhyapanchal72@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2025 Aadhya Panchal. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
